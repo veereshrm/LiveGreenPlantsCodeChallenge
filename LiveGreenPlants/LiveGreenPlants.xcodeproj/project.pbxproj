@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1AB5B56283A4A0400E440AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B55283A4A0400E440AB /* AppDelegate.swift */; };
+		F1AB5B58283A4A0400E440AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B57283A4A0400E440AB /* SceneDelegate.swift */; };
+		F1AB5B5D283A4A0400E440AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AB5B5B283A4A0400E440AB /* Main.storyboard */; };
+		F1AB5B5F283A4A0500E440AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AB5B5E283A4A0500E440AB /* Assets.xcassets */; };
+		F1AB5B62283A4A0500E440AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AB5B60283A4A0500E440AB /* LaunchScreen.storyboard */; };
+		F1AB5B6D283A4A7B00E440AB /* LGPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B6C283A4A7B00E440AB /* LGPViewController.swift */; };
+		F1AB5B76283A4B7500E440AB /* LGPProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B75283A4B7500E440AB /* LGPProductListRouter.swift */; };
+		F1AB5B78283A4B9500E440AB /* LGPProductListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B77283A4B9500E440AB /* LGPProductListEntity.swift */; };
+		F1AB5B7A283A4BB600E440AB /* LGPProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B79283A4BB600E440AB /* LGPProductListPresenter.swift */; };
+		F1AB5B7C283A4BD100E440AB /* LGPProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B7B283A4BD100E440AB /* LGPProductListInteractor.swift */; };
+		F1AB5B7E283A4C0A00E440AB /* LGPProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B7D283A4C0A00E440AB /* LGPProductListViewController.swift */; };
+		F1AB5B80283A4C3800E440AB /* LGPProductListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B7F283A4C3800E440AB /* LGPProductListProtocols.swift */; };
+		F1AB5B82283A4CD400E440AB /* LGPOrderSummaryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B81283A4CD400E440AB /* LGPOrderSummaryProtocols.swift */; };
+		F1AB5B86283A4D0B00E440AB /* LGPOrderSummaryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B85283A4D0B00E440AB /* LGPOrderSummaryInteractor.swift */; };
+		F1AB5B88283A4D5D00E440AB /* LGPOrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B87283A4D5D00E440AB /* LGPOrderSummaryViewController.swift */; };
+		F1AB5B8A283A4D7D00E440AB /* LGPOrderSummaryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B89283A4D7D00E440AB /* LGPOrderSummaryPresenter.swift */; };
+		F1AB5B8C283A4D9600E440AB /* LGPOrderSummaryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B8B283A4D9600E440AB /* LGPOrderSummaryEntity.swift */; };
+		F1AB5B8E283A4DB100E440AB /* LGPOrderSummaryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B8D283A4DB100E440AB /* LGPOrderSummaryRouter.swift */; };
+		F1AB5B98283A5ACF00E440AB /* LGPProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B96283A5ACF00E440AB /* LGPProductCell.swift */; };
+		F1AB5B99283A5ACF00E440AB /* LGPProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AB5B97283A5ACF00E440AB /* LGPProductCell.xib */; };
+		F1AB5B9B283A786500E440AB /* LGPNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B9A283A786500E440AB /* LGPNetworkLayer.swift */; };
+		F1AB5B9D283A78D700E440AB /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = F1AB5B9C283A78D700E440AB /* Products.json */; };
+		F1AB5B9F283A7E6200E440AB /* LGPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5B9E283A7E6200E440AB /* LGPConstants.swift */; };
+		F1AB5BA9283AC5F800E440AB /* StoreInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = F1AB5BA8283AC5F800E440AB /* StoreInfo.json */; };
+		F1AB5BAC283B401F00E440AB /* LGPProductSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BAA283B401F00E440AB /* LGPProductSummaryCell.swift */; };
+		F1AB5BAD283B401F00E440AB /* LGPProductSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AB5BAB283B401F00E440AB /* LGPProductSummaryCell.xib */; };
+		F1AB5BB0283B412E00E440AB /* LGPAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BAE283B412E00E440AB /* LGPAddressCell.swift */; };
+		F1AB5BB1283B412E00E440AB /* LGPAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AB5BAF283B412E00E440AB /* LGPAddressCell.xib */; };
+		F1AB5BB3283B905400E440AB /* LGPTextViewAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BB2283B905400E440AB /* LGPTextViewAddition.swift */; };
+		F1AB5BBA283BC4E800E440AB /* LGPFontAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BB9283BC4E800E440AB /* LGPFontAdditions.swift */; };
+		F1AB5BBC283BFE5D00E440AB /* LGPStringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BBB283BFE5D00E440AB /* LGPStringAdditions.swift */; };
+		F1AB5BC0283C064D00E440AB /* LGPOrderCompletedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BBF283C064D00E440AB /* LGPOrderCompletedPresenter.swift */; };
+		F1AB5BC2283C066900E440AB /* LGPOrderCompletedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BC1283C066900E440AB /* LGPOrderCompletedRouter.swift */; };
+		F1AB5BC4283C068D00E440AB /* LGPOrderCompletedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BC3283C068D00E440AB /* LGPOrderCompletedProtocol.swift */; };
+		F1AB5BC6283C06C900E440AB /* LGPOrderCompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BC5283C06C900E440AB /* LGPOrderCompletedViewController.swift */; };
+		F1AB5BC9283C186900E440AB /* LGPNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BC8283C186900E440AB /* LGPNavigationControllerViewController.swift */; };
+		F1AB5BCB283C1DBE00E440AB /* LGPNavigationControllerAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BCA283C1DBE00E440AB /* LGPNavigationControllerAddition.swift */; };
+		F1AB5BCE283C24BC00E440AB /* LGPFilePathUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB5BCD283C24BC00E440AB /* LGPFilePathUtility.swift */; };
+		F1C5F81A283C8529002DB822 /* LiveGreenPlantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C5F819283C8529002DB822 /* LiveGreenPlantsTests.swift */; };
+		F1C5F820283C8535002DB822 /* LGPNetWorkLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C5F811283C83DE002DB822 /* LGPNetWorkLayerTest.swift */; };
+		F1C5F822283C8B07002DB822 /* LGPProductListInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C5F821283C8B07002DB822 /* LGPProductListInteractorTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C5F81B283C8529002DB822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1AB5B4A283A4A0400E440AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1AB5B51283A4A0400E440AB;
+			remoteInfo = LiveGreenPlants;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1AB5B52283A4A0400E440AB /* LiveGreenPlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveGreenPlants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AB5B55283A4A0400E440AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1AB5B57283A4A0400E440AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1AB5B5C283A4A0400E440AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1AB5B5E283A4A0500E440AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1AB5B61283A4A0500E440AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1AB5B63283A4A0500E440AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AB5B6C283A4A7B00E440AB /* LGPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPViewController.swift; sourceTree = "<group>"; };
+		F1AB5B75283A4B7500E440AB /* LGPProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductListRouter.swift; sourceTree = "<group>"; };
+		F1AB5B77283A4B9500E440AB /* LGPProductListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductListEntity.swift; sourceTree = "<group>"; };
+		F1AB5B79283A4BB600E440AB /* LGPProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductListPresenter.swift; sourceTree = "<group>"; };
+		F1AB5B7B283A4BD100E440AB /* LGPProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductListInteractor.swift; sourceTree = "<group>"; };
+		F1AB5B7D283A4C0A00E440AB /* LGPProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductListViewController.swift; sourceTree = "<group>"; };
+		F1AB5B7F283A4C3800E440AB /* LGPProductListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductListProtocols.swift; sourceTree = "<group>"; };
+		F1AB5B81283A4CD400E440AB /* LGPOrderSummaryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderSummaryProtocols.swift; sourceTree = "<group>"; };
+		F1AB5B85283A4D0B00E440AB /* LGPOrderSummaryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderSummaryInteractor.swift; sourceTree = "<group>"; };
+		F1AB5B87283A4D5D00E440AB /* LGPOrderSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderSummaryViewController.swift; sourceTree = "<group>"; };
+		F1AB5B89283A4D7D00E440AB /* LGPOrderSummaryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderSummaryPresenter.swift; sourceTree = "<group>"; };
+		F1AB5B8B283A4D9600E440AB /* LGPOrderSummaryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderSummaryEntity.swift; sourceTree = "<group>"; };
+		F1AB5B8D283A4DB100E440AB /* LGPOrderSummaryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderSummaryRouter.swift; sourceTree = "<group>"; };
+		F1AB5B96283A5ACF00E440AB /* LGPProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductCell.swift; sourceTree = "<group>"; };
+		F1AB5B97283A5ACF00E440AB /* LGPProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGPProductCell.xib; sourceTree = "<group>"; };
+		F1AB5B9A283A786500E440AB /* LGPNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LGPNetworkLayer.swift; path = /Users/boschmac/Documents/LiveGreenPlants/LiveGreenPlants/Modules/Services/LGPNetworkLayer.swift; sourceTree = "<absolute>"; };
+		F1AB5B9C283A78D700E440AB /* Products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
+		F1AB5B9E283A7E6200E440AB /* LGPConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPConstants.swift; sourceTree = "<group>"; };
+		F1AB5BA8283AC5F800E440AB /* StoreInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StoreInfo.json; sourceTree = "<group>"; };
+		F1AB5BAA283B401F00E440AB /* LGPProductSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductSummaryCell.swift; sourceTree = "<group>"; };
+		F1AB5BAB283B401F00E440AB /* LGPProductSummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGPProductSummaryCell.xib; sourceTree = "<group>"; };
+		F1AB5BAE283B412E00E440AB /* LGPAddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPAddressCell.swift; sourceTree = "<group>"; };
+		F1AB5BAF283B412E00E440AB /* LGPAddressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGPAddressCell.xib; sourceTree = "<group>"; };
+		F1AB5BB2283B905400E440AB /* LGPTextViewAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPTextViewAddition.swift; sourceTree = "<group>"; };
+		F1AB5BB9283BC4E800E440AB /* LGPFontAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPFontAdditions.swift; sourceTree = "<group>"; };
+		F1AB5BBB283BFE5D00E440AB /* LGPStringAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPStringAdditions.swift; sourceTree = "<group>"; };
+		F1AB5BBF283C064D00E440AB /* LGPOrderCompletedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderCompletedPresenter.swift; sourceTree = "<group>"; };
+		F1AB5BC1283C066900E440AB /* LGPOrderCompletedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderCompletedRouter.swift; sourceTree = "<group>"; };
+		F1AB5BC3283C068D00E440AB /* LGPOrderCompletedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderCompletedProtocol.swift; sourceTree = "<group>"; };
+		F1AB5BC5283C06C900E440AB /* LGPOrderCompletedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPOrderCompletedViewController.swift; sourceTree = "<group>"; };
+		F1AB5BC8283C186900E440AB /* LGPNavigationControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		F1AB5BCA283C1DBE00E440AB /* LGPNavigationControllerAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPNavigationControllerAddition.swift; sourceTree = "<group>"; };
+		F1AB5BCD283C24BC00E440AB /* LGPFilePathUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPFilePathUtility.swift; sourceTree = "<group>"; };
+		F1C5F811283C83DE002DB822 /* LGPNetWorkLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPNetWorkLayerTest.swift; sourceTree = "<group>"; };
+		F1C5F817283C8529002DB822 /* LiveGreenPlantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveGreenPlantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C5F819283C8529002DB822 /* LiveGreenPlantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGreenPlantsTests.swift; sourceTree = "<group>"; };
+		F1C5F821283C8B07002DB822 /* LGPProductListInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGPProductListInteractorTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1AB5B4F283A4A0400E440AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C5F814283C8529002DB822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1AB5B49283A4A0400E440AB = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B54283A4A0400E440AB /* LiveGreenPlants */,
+				F1C5F818283C8529002DB822 /* LiveGreenPlantsTests */,
+				F1AB5B53283A4A0400E440AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1AB5B53283A4A0400E440AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B52283A4A0400E440AB /* LiveGreenPlants.app */,
+				F1C5F817283C8529002DB822 /* LiveGreenPlantsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1AB5B54283A4A0400E440AB /* LiveGreenPlants */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B69283A4A1800E440AB /* Modules */,
+				F1AB5BC7283C12F700E440AB /* AppDelegate */,
+				F1AB5B5E283A4A0500E440AB /* Assets.xcassets */,
+				F1AB5B60283A4A0500E440AB /* LaunchScreen.storyboard */,
+				F1AB5B63283A4A0500E440AB /* Info.plist */,
+			);
+			path = LiveGreenPlants;
+			sourceTree = "<group>";
+		};
+		F1AB5B69283A4A1800E440AB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B74283A4B2400E440AB /* ProductList */,
+				F1AB5B73283A4B1500E440AB /* OrderSummary */,
+				F1AB5BB4283BB87B00E440AB /* OrderedSuccess */,
+				F1AB5B72283A4AC800E440AB /* Services */,
+				F1AB5B71283A4AB700E440AB /* Extension */,
+				F1AB5B70283A4AAB00E440AB /* Utility */,
+				F1AB5B6F283A4AA100E440AB /* Constants */,
+				F1AB5BCC283C217400E440AB /* CustomNavigation */,
+				F1AB5B6E283A4A9700E440AB /* Views */,
+				F1AB5B8F283A522600E440AB /* JsonFile */,
+				F1AB5B6B283A4A4B00E440AB /* BaseViewController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F1AB5B6B283A4A4B00E440AB /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B6C283A4A7B00E440AB /* LGPViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		F1AB5B6E283A4A9700E440AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B93283A590300E440AB /* Xibs */,
+				F1AB5B90283A56DC00E440AB /* StoryBoard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1AB5B6F283A4AA100E440AB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B9E283A7E6200E440AB /* LGPConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F1AB5B70283A4AAB00E440AB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5BCD283C24BC00E440AB /* LGPFilePathUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F1AB5B71283A4AB700E440AB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5BB2283B905400E440AB /* LGPTextViewAddition.swift */,
+				F1AB5BB9283BC4E800E440AB /* LGPFontAdditions.swift */,
+				F1AB5BBB283BFE5D00E440AB /* LGPStringAdditions.swift */,
+				F1AB5BCA283C1DBE00E440AB /* LGPNavigationControllerAddition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F1AB5B72283A4AC800E440AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B9A283A786500E440AB /* LGPNetworkLayer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F1AB5B73283A4B1500E440AB /* OrderSummary */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5BAE283B412E00E440AB /* LGPAddressCell.swift */,
+				F1AB5BAA283B401F00E440AB /* LGPProductSummaryCell.swift */,
+				F1AB5B87283A4D5D00E440AB /* LGPOrderSummaryViewController.swift */,
+				F1AB5B85283A4D0B00E440AB /* LGPOrderSummaryInteractor.swift */,
+				F1AB5B89283A4D7D00E440AB /* LGPOrderSummaryPresenter.swift */,
+				F1AB5B8B283A4D9600E440AB /* LGPOrderSummaryEntity.swift */,
+				F1AB5B8D283A4DB100E440AB /* LGPOrderSummaryRouter.swift */,
+				F1AB5B81283A4CD400E440AB /* LGPOrderSummaryProtocols.swift */,
+			);
+			path = OrderSummary;
+			sourceTree = "<group>";
+		};
+		F1AB5B74283A4B2400E440AB /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B96283A5ACF00E440AB /* LGPProductCell.swift */,
+				F1AB5B7D283A4C0A00E440AB /* LGPProductListViewController.swift */,
+				F1AB5B7B283A4BD100E440AB /* LGPProductListInteractor.swift */,
+				F1AB5B79283A4BB600E440AB /* LGPProductListPresenter.swift */,
+				F1AB5B77283A4B9500E440AB /* LGPProductListEntity.swift */,
+				F1AB5B75283A4B7500E440AB /* LGPProductListRouter.swift */,
+				F1AB5B7F283A4C3800E440AB /* LGPProductListProtocols.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		F1AB5B8F283A522600E440AB /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B9C283A78D700E440AB /* Products.json */,
+				F1AB5BA8283AC5F800E440AB /* StoreInfo.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
+		F1AB5B90283A56DC00E440AB /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B5B283A4A0400E440AB /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		F1AB5B93283A590300E440AB /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5BAF283B412E00E440AB /* LGPAddressCell.xib */,
+				F1AB5B97283A5ACF00E440AB /* LGPProductCell.xib */,
+				F1AB5BAB283B401F00E440AB /* LGPProductSummaryCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		F1AB5BB4283BB87B00E440AB /* OrderedSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5BBF283C064D00E440AB /* LGPOrderCompletedPresenter.swift */,
+				F1AB5BC1283C066900E440AB /* LGPOrderCompletedRouter.swift */,
+				F1AB5BC3283C068D00E440AB /* LGPOrderCompletedProtocol.swift */,
+				F1AB5BC5283C06C900E440AB /* LGPOrderCompletedViewController.swift */,
+			);
+			path = OrderedSuccess;
+			sourceTree = "<group>";
+		};
+		F1AB5BC7283C12F700E440AB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5B55283A4A0400E440AB /* AppDelegate.swift */,
+				F1AB5B57283A4A0400E440AB /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F1AB5BCC283C217400E440AB /* CustomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB5BC8283C186900E440AB /* LGPNavigationControllerViewController.swift */,
+			);
+			path = CustomNavigation;
+			sourceTree = "<group>";
+		};
+		F1C5F818283C8529002DB822 /* LiveGreenPlantsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C5F811283C83DE002DB822 /* LGPNetWorkLayerTest.swift */,
+				F1C5F819283C8529002DB822 /* LiveGreenPlantsTests.swift */,
+				F1C5F821283C8B07002DB822 /* LGPProductListInteractorTest.swift */,
+			);
+			path = LiveGreenPlantsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1AB5B51283A4A0400E440AB /* LiveGreenPlants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AB5B66283A4A0500E440AB /* Build configuration list for PBXNativeTarget "LiveGreenPlants" */;
+			buildPhases = (
+				F1AB5B4E283A4A0400E440AB /* Sources */,
+				F1AB5B4F283A4A0400E440AB /* Frameworks */,
+				F1AB5B50283A4A0400E440AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveGreenPlants;
+			productName = LiveGreenPlants;
+			productReference = F1AB5B52283A4A0400E440AB /* LiveGreenPlants.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C5F816283C8529002DB822 /* LiveGreenPlantsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C5F81D283C8529002DB822 /* Build configuration list for PBXNativeTarget "LiveGreenPlantsTests" */;
+			buildPhases = (
+				F1C5F813283C8529002DB822 /* Sources */,
+				F1C5F814283C8529002DB822 /* Frameworks */,
+				F1C5F815283C8529002DB822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C5F81C283C8529002DB822 /* PBXTargetDependency */,
+			);
+			name = LiveGreenPlantsTests;
+			productName = LiveGreenPlantsTests;
+			productReference = F1C5F817283C8529002DB822 /* LiveGreenPlantsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1AB5B4A283A4A0400E440AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F1AB5B51283A4A0400E440AB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F1C5F816283C8529002DB822 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F1AB5B51283A4A0400E440AB;
+					};
+				};
+			};
+			buildConfigurationList = F1AB5B4D283A4A0400E440AB /* Build configuration list for PBXProject "LiveGreenPlants" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1AB5B49283A4A0400E440AB;
+			productRefGroup = F1AB5B53283A4A0400E440AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1AB5B51283A4A0400E440AB /* LiveGreenPlants */,
+				F1C5F816283C8529002DB822 /* LiveGreenPlantsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1AB5B50283A4A0400E440AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AB5B62283A4A0500E440AB /* LaunchScreen.storyboard in Resources */,
+				F1AB5B5F283A4A0500E440AB /* Assets.xcassets in Resources */,
+				F1AB5B5D283A4A0400E440AB /* Main.storyboard in Resources */,
+				F1AB5B99283A5ACF00E440AB /* LGPProductCell.xib in Resources */,
+				F1AB5BB1283B412E00E440AB /* LGPAddressCell.xib in Resources */,
+				F1AB5BAD283B401F00E440AB /* LGPProductSummaryCell.xib in Resources */,
+				F1AB5BA9283AC5F800E440AB /* StoreInfo.json in Resources */,
+				F1AB5B9D283A78D700E440AB /* Products.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C5F815283C8529002DB822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1AB5B4E283A4A0400E440AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AB5BAC283B401F00E440AB /* LGPProductSummaryCell.swift in Sources */,
+				F1AB5BB3283B905400E440AB /* LGPTextViewAddition.swift in Sources */,
+				F1AB5B82283A4CD400E440AB /* LGPOrderSummaryProtocols.swift in Sources */,
+				F1AB5BCE283C24BC00E440AB /* LGPFilePathUtility.swift in Sources */,
+				F1AB5B6D283A4A7B00E440AB /* LGPViewController.swift in Sources */,
+				F1AB5BCB283C1DBE00E440AB /* LGPNavigationControllerAddition.swift in Sources */,
+				F1AB5BBC283BFE5D00E440AB /* LGPStringAdditions.swift in Sources */,
+				F1AB5B8A283A4D7D00E440AB /* LGPOrderSummaryPresenter.swift in Sources */,
+				F1AB5BC6283C06C900E440AB /* LGPOrderCompletedViewController.swift in Sources */,
+				F1AB5B8E283A4DB100E440AB /* LGPOrderSummaryRouter.swift in Sources */,
+				F1AB5B7A283A4BB600E440AB /* LGPProductListPresenter.swift in Sources */,
+				F1AB5BB0283B412E00E440AB /* LGPAddressCell.swift in Sources */,
+				F1AB5B9B283A786500E440AB /* LGPNetworkLayer.swift in Sources */,
+				F1AB5BC2283C066900E440AB /* LGPOrderCompletedRouter.swift in Sources */,
+				F1AB5BC9283C186900E440AB /* LGPNavigationControllerViewController.swift in Sources */,
+				F1AB5B76283A4B7500E440AB /* LGPProductListRouter.swift in Sources */,
+				F1AB5B7C283A4BD100E440AB /* LGPProductListInteractor.swift in Sources */,
+				F1AB5B56283A4A0400E440AB /* AppDelegate.swift in Sources */,
+				F1AB5B78283A4B9500E440AB /* LGPProductListEntity.swift in Sources */,
+				F1AB5B8C283A4D9600E440AB /* LGPOrderSummaryEntity.swift in Sources */,
+				F1AB5B88283A4D5D00E440AB /* LGPOrderSummaryViewController.swift in Sources */,
+				F1AB5BC4283C068D00E440AB /* LGPOrderCompletedProtocol.swift in Sources */,
+				F1AB5BBA283BC4E800E440AB /* LGPFontAdditions.swift in Sources */,
+				F1AB5B80283A4C3800E440AB /* LGPProductListProtocols.swift in Sources */,
+				F1AB5B86283A4D0B00E440AB /* LGPOrderSummaryInteractor.swift in Sources */,
+				F1AB5B58283A4A0400E440AB /* SceneDelegate.swift in Sources */,
+				F1AB5BC0283C064D00E440AB /* LGPOrderCompletedPresenter.swift in Sources */,
+				F1AB5B98283A5ACF00E440AB /* LGPProductCell.swift in Sources */,
+				F1AB5B7E283A4C0A00E440AB /* LGPProductListViewController.swift in Sources */,
+				F1AB5B9F283A7E6200E440AB /* LGPConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C5F813283C8529002DB822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C5F820283C8535002DB822 /* LGPNetWorkLayerTest.swift in Sources */,
+				F1C5F822283C8B07002DB822 /* LGPProductListInteractorTest.swift in Sources */,
+				F1C5F81A283C8529002DB822 /* LiveGreenPlantsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C5F81C283C8529002DB822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1AB5B51283A4A0400E440AB /* LiveGreenPlants */;
+			targetProxy = F1C5F81B283C8529002DB822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1AB5B5B283A4A0400E440AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AB5B5C283A4A0400E440AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1AB5B60283A4A0500E440AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AB5B61283A4A0500E440AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1AB5B64283A4A0500E440AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1AB5B65283A4A0500E440AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1AB5B67283A4A0500E440AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveGreenPlants/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveGreenPlants;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1AB5B68283A4A0500E440AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveGreenPlants/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveGreenPlants;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1C5F81E283C8529002DB822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveGreenPlantsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveGreenPlants.app/LiveGreenPlants";
+			};
+			name = Debug;
+		};
+		F1C5F81F283C8529002DB822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveGreenPlantsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveGreenPlants.app/LiveGreenPlants";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1AB5B4D283A4A0400E440AB /* Build configuration list for PBXProject "LiveGreenPlants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AB5B64283A4A0500E440AB /* Debug */,
+				F1AB5B65283A4A0500E440AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AB5B66283A4A0500E440AB /* Build configuration list for PBXNativeTarget "LiveGreenPlants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AB5B67283A4A0500E440AB /* Debug */,
+				F1AB5B68283A4A0500E440AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C5F81D283C8529002DB822 /* Build configuration list for PBXNativeTarget "LiveGreenPlantsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C5F81E283C8529002DB822 /* Debug */,
+				F1C5F81F283C8529002DB822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1AB5B4A283A4A0400E440AB /* Project object */;
+}

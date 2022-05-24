@@ -1,0 +1,213 @@
+[{
+        "id": 1,
+        "title": "Peace Lily, Spathiphyllum - Plant",
+        "price": 299,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "lily",
+        "storeID": "Store25",
+
+        "rating": {
+            "rate": 5,
+            "count": 120
+        }
+        
+    },
+    {
+        "id": 2,
+        "title": "Elephant bush, Portulacaria afra, Jade plant (Green) - Succulent Plant",
+        "price": 199,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "elephant_bush",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "5 Best Indoor Plants Pack",
+        "price": 349,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "indoor_plants",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Syngonium ( Pink ) - Plant",
+        "price": 169,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "syngonium_pink",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "Areca Palm - Plant",
+        "price": 1049,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "areca _palm",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Syngonium Green - Plant",
+        "price": 166,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "syngonium_green",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "Aglaonema siam aurora, Aglaonema lipstick - Plant",
+        "price": 349,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "aglaonema_siam",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Ficus Bonsai - Plant",
+        "price": 549,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "ficus_bonsai",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "title": "Rubber Tree, Rubber Plant, Ficus elastica (Small) - Plant",
+        "price": 649,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "rubber_tree",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "Alocasia Hybrid - Plant",
+        "price": 199,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "alocasia",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Christmas Cactus, Schlumbergera - Succulent Plant",
+        "price": 299,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "christmas_cactus",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "Peace Lily for Wonderful Day - Gift Plant",
+        "price": 114,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "peace_lily",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Raphis Palm, Lady Palm - Plant",
+        "price": 599,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "raphis_palm",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Aralia Black - Plant",
+        "price": 999,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "aralia_black",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 15,
+        "title": "Tree of Life - Air Plant",
+        "price": 565,
+        "stock": 25,
+        "description": "Images are for reference purposes only. Actual product may vary in shape or appearance based on climate, age, height, etc. The product is replaceable but not returnable.",
+        "currency": "INR",
+        "image": "tree_of_ife_air_plant",
+        "storeID": "Store25",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    }
+]
